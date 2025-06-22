@@ -2,7 +2,7 @@
 
 ## Description
 
-Time Series Classification (TSC) and Extrinsic Regression (TSER) are critical tasks in diverse fields. While Fully Convolutional Networks (FCNs) effectively capture temporal features, Kolmogorov–Arnold Networks (KANs) provide greater flexibility and interpretability. However, KAN integration with temporal encoders and use in regression tasks remain largely unexplored. In this paper, we introduce FCKAN\footnote{https://anonymous.4open.science/r/FCKAN-ENIAC2025/}, a novel architecture combining FCNs and KANs for TSC and TSER. We explore two variants: an end-to-end model and a hybrid approach that uses a pre-trained FCN as a feature extractor, followed by a KAN.
+Time Series Classification (TSC) and Extrinsic Regression (TSER) are critical tasks in diverse fields. While Fully Convolutional Networks (FCNs) effectively capture temporal features, Kolmogorov–Arnold Networks (KANs) provide greater flexibility and interpretability. However, KAN integration with temporal encoders and use in regression tasks remain largely unexplored. In this paper, we introduce FCKAN, a novel architecture combining FCNs and KANs for TSC and TSER. We explore two variants: an end-to-end model and a hybrid approach that uses a pre-trained FCN as a feature extractor, followed by a KAN.
 We conducted extensive experiments on $147$ benchmark datasets. For TSC, both approaches outperform non-temporal baselines and perform competitively with FCNs. In TSER, while all models are statistically equivalent, temporal models consistently surpass non-temporal baselines in performance.
 
 ## Structure
